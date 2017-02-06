@@ -247,7 +247,7 @@ h4{
   justify-content: center;
 }
 .follow-card {
-  width: 220px;
+  width: 240px;
   display: flex;
   border: 1pt solid #D3D3D3;;
   border-radius: 5px;
@@ -270,7 +270,7 @@ h4{
 
 }
 .follow-icons img {
-  width: 40px;
+  width: 50px;
 }
 .social-icon {
   width: 25px;
