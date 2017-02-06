@@ -64,9 +64,10 @@ of those sections to manage the look and feel of the site. */
 
 
 .home-section {
-    height: 500px;
+    height: auto;
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 35px;
     text-align: center;
     /*background: url('../images/evans_shops_banner.jpg') no-repeat;
     background-size: contain;
@@ -84,6 +85,18 @@ of those sections to manage the look and feel of the site. */
 .banner {
   height: 300px;
   margin: 10px;
+}
+@media(max-width: 600px) {
+  .banner {
+    width: 300px;
+    height: auto;
+  }
+}
+@media(max-width: 350px) {
+  .banner {
+    width: 250px;
+    height: auto;
+  }
 }
 
 /***************************shop cards*******************************/
